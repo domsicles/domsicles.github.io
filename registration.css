@@ -1,0 +1,475 @@
+header {
+    background-color: black;
+    padding-top: 5px;
+    border-radius: 70px;
+}
+
+.logo {
+    position: relative;
+    border-radius: 100px;
+    height: 3cm;
+    width: 3cm;
+    left: 20px;
+    top: 7px;
+}
+
+nav {
+    position: relative;
+    text-align: right;
+    bottom: 65px;
+    right: 80px;
+}
+
+.stats {
+    position: relative;
+    right: 100px;
+    color: azure;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.stats:hover {
+    background-color: white;
+    color: black;
+}
+
+.reg {
+    position: relative;
+    right: 50px;
+    color: goldenrod;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.reg:hover {
+    background-color: white;
+    color: black;
+}
+
+.quiz {
+    color: azure;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.quiz:hover {
+    background-color: white;
+    color: black;
+}
+
+.fform {
+    text-align: center;
+    background-color: lavender;
+    height: 1400px;
+    width: 750px;
+    margin-left: 275px;
+    border-radius: 50px;
+}
+
+.body {
+    background-color: #728FCE;
+}
+
+.sname {
+    text-align: left;
+    margin-left: 40px;
+}
+
+.firstname {
+    position: relative;
+    height: 30px;
+    width: 200px;
+    right: 43px;
+    border-radius: 6px;
+}
+
+.fname {
+    position: relative;
+    top: 30px;
+    right: 188px;
+}
+
+.middlename {
+    position: relative;
+    height: 30px;
+    width: 200px;
+    right: 100px;
+    border-radius: 6px;
+}
+
+.mname {
+    position: relative;
+    top: 30px;
+    right: 250px;
+}
+
+.lastname {
+    position: relative;
+    height: 30px;
+    width: 200px;
+    left: 265px;
+    bottom: 37px;
+    border-radius: 6px;
+}
+
+.lname {
+    position: relative;
+    left: 125px;
+    bottom: 7px;
+}
+
+.bdate {
+    position: relative;
+    bottom: 10px;
+}
+
+.birth {
+    text-align: left;
+    margin-left: 40px;
+}
+
+#birthmonth {
+    position: relative;
+    right: 208px;
+    height: 30px;
+    width: 250px;
+    bottom: 10px;
+    border-radius: 6px;
+}
+
+.g {
+    position: relative;
+    right: 97px;
+}
+
+.gen {
+    position: relative;
+    float: right;
+    margin-right: 45px;
+    bottom: 100px;
+
+}
+
+#gender {
+    position: relative;
+    width: 250px;
+    height: 30px;
+    bottom: 10px;
+    border-radius: 6px;
+}
+
+.stadd {
+    position: relative;
+    float: left;
+    left: 325px;
+    bottom: 30px;
+}
+
+.ress {
+    position: relative;
+    width: 650px;
+    height: 30px;
+    bottom: 40px;
+    right: 5px;
+    border-radius: 6px;
+}
+
+.add {
+    text-align: left;
+    margin-left: 40px;
+}
+
+.line2 {
+    position: relative;
+    width: 650px;
+    height: 30px;
+    bottom: 20px;
+    right: 5px;
+    border-radius: 6px;
+}
+
+.stline2 {
+    position: relative;
+    float: left;
+    left: 305px;
+    bottom: 10px;
+}
+
+.two {
+    position: relative;
+    top: 25px;
+}
+
+.c {
+    position: relative;
+    right: 157px;
+    width: 250px;
+    height: 30px;
+    border-radius: 6px;
+}
+
+.city {
+    position: relative;
+    top: 45px;
+    float: left;
+    left: 12px;
+}
+
+.sp {
+    position: relative;
+    right: 20px;
+    width: 250px;
+    height: 30px;
+    border-radius: 6px;
+}
+
+.state {
+    position: relative;
+    top: 10px;
+    float: right;
+    right: 135px;
+}
+
+.postal {
+    position: relative;
+    top: 70px;
+}
+
+.zip {
+    position: relative;
+    width: 650px;
+    height: 30px;
+    bottom: 20px;
+    right: 5px;
+    border-radius: 6px;
+}
+
+.code {
+    position: relative;
+    float: left;
+    left: 320px;
+    bottom: 10px;
+}
+
+.stud {
+    position: relative;
+    top: 70px;
+}
+
+.ent {
+    text-align: left;
+    margin-left: 40px;
+}
+
+.email {
+    position: relative;
+    right: 208px;
+    height: 30px;
+    width: 250px;
+    bottom: 10px;
+    border-radius: 6px;
+}
+
+.mobnum {
+    position: relative;
+    float: right;
+    margin-right: 45px;
+    bottom: 28px;
+}
+
+.number {
+    position: relative;
+    width: 250px;
+    height: 30px;
+    bottom: 10px;
+    border-radius: 6px;
+}
+
+.mobile {
+    position: relative;
+    right: 70px;
+}
+
+.phonum {
+    position: relative;
+    top: 70px;
+}
+
+.phone {
+    text-align: left;
+    margin-left: 40px;
+}
+
+.num {
+    position: relative;
+    right: 57px;
+    height: 30px;
+    width: 250px;
+    bottom: 10px;
+    border-radius: 6px;
+}
+
+.wornum {
+    position: relative;
+    float: right;
+    margin-right: 45px;
+    bottom: 28px;
+}
+
+.work {
+    position: relative;
+    right: 70px;
+}
+
+.ber {
+    position: relative;
+    width: 250px;
+    height: 30px;
+    bottom: 10px;
+    border-radius: 6px;
+}
+
+.cpany {
+    position: relative;
+    top: 70px;
+}
+
+.company {
+    text-align: left;
+    margin-left: 40px;
+}
+
+.comp {
+    position: relative;
+    right: 57px;
+    height: 30px;
+    width: 250px;
+    bottom: 10px;
+    border-radius: 6px;
+}
+
+.course {
+    position: relative;
+    top: 70px;
+}
+
+.courses {
+    text-align: left;
+    margin-left: 40px;
+}
+
+#courses {
+    position: relative;
+    right: 208px;
+    height: 30px;
+    width: 255px;
+    bottom: 10px;
+    border-radius: 6px;
+}
+
+.comments {
+    position: relative;
+    top: 70px;
+}
+
+.addcom {
+    text-align: left;
+    margin-left: 40px;
+}
+
+.com {
+    position: relative;
+    width: 650px;
+    height: 150px;
+    bottom: 10px;
+    border-radius: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.submit {
+    position: relative;
+    top: 100px;
+    right: 150px;
+    height: 50px;
+    width: 150px;
+    background-color: #90EE90;
+    color: black;
+    border-radius: 6px;
+    border: 2px solid;
+    cursor: pointer;
+}
+.submit:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.clear {
+    position: relative;
+    top: 100px;
+    left: 150px;
+    height: 50px;
+    width: 150px;
+    background-color: #90EE90;
+    color: black;
+    border-radius: 6px;
+    border: 2px solid;
+    cursor: pointer;
+}
+.clear:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+footer {
+    position: relative;
+    top: 10px;
+    background-color: grey;
+    padding: 12px;
+    margin-left: -25px;
+    width: 1342px;
+}
+
+.socmed {
+    position: relative;
+    bottom: 10px;
+    left: 35px;
+}
+
+.facebook {
+    position: relative;
+    width: 1cm;
+    height: 1cm;
+    border-radius: 25px;
+    top: 4px;
+    left: 40px;
+}
+
+.IG {
+    position: relative;
+    width: 1cm;
+    height: 1cm;
+    border-radius: 25px;
+    top: 4px;
+    left: 45px;
+}
+
+.phone {
+    position: relative;
+    width: 1cm;
+    height: 1cm;
+    border-radius: 25px;
+    top: 4px;
+    left: 10px;
+}
+
+.copyright {
+    position: relative;
+    bottom: 10px;
+    left: 9in;
+}
+
+
+

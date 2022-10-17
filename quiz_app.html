@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" type="text/css" href="quiz_app.css">
+</head>
+<header>
+    <a href="index.html"><img class="logo" src="DF Logo.png" alt="Logo"></a>
+
+    <nav>
+        <a class="stats" href="stats.html">Stats</a>
+        <a class="reg" href="registration.html">Registration</a>
+        <a class="app" href="quiz_app.html">Quiz App</a>
+    </nav>
+</header>
+<body>
+    <form action="action_page.php" method="GET"> 
+    <div class="quiz">
+        <fieldset>
+            <legend class="student">Student Info</legend>
+            <label>Name:</label>
+            <input id="name" type="text" name="name" placeholder="e.g. Dominic T. Fajardo"></input> <br><br>
+            <label>E-mail:</label>
+            <input id="email" type="text" name="email" placeholder="e.g. dominicfajardo007@gmail.com"></input> <br><br>
+            <label>Course:</label>
+            <input id="course" type="text" name="course" placeholder="Please input course and block"></input> <br><br>
+            <label>Date:</label>
+            <input type="date" id="date" name="date">
+        </fieldset><br>  
+        <fieldset>
+            <legend class="expro">Exam Proper</legend>
+            <p>1. Name only one IDE used for developing a website.</p>
+            <input id="answer" type="text"> <br><br>
+            <p>2. HTML is not case sensitive.</p>
+             <input type="radio" name="choose" value="true">
+             <label for="true">True</label><br>
+             <input type="radio" name="choose" value="false">
+             <label for="false">False</label><br>
+            <p>3. Select all the technologies for developing a website.</p>
+             <input type="checkbox" name="font">HTML5</input><br>
+             <input type="checkbox" name="label">Youtube</input><br>
+             <input type="checkbox" name="background">JavaScript</input><br>
+             <input type="checkbox" name="forms">CSS</input><br>
+            <p>4. Create and upload the code that will execute the header in the image: </p>
+            <img class="header" src="header.png" alt="sample header"><br>
+            <input class="file" type="file">
+            <p>5. What does HTML mean and what does it do?</p>
+            <textarea class="num5" placeholder="Explain..."></textarea><br><br>
+        </fieldset>
+
+        <button type="submit">Submit</button>
+        <meter value="1.0">100%</meter>
+    </div>
+<footer>
+    <small class="socmed">Follow me on Social Media!</small>
+
+    <a href="https://web.facebook.com/dominicterrago.fajardo.9">
+    <img class="facebook" src="facebook-logo-transparent-background-13.png" alt="facebook" ></a>
+
+    <a href="https://www.instagram.com/minic_fajardo/"><img class="IG" src="instagram.png" alt="instagram"></a>
+
+    <a href="09510824136"><img class="phone" src="phone icon.png" alt="phone"></a>
+
+    <small class="copyright">Copyright DTF @ 2022</small>
+</footer>
+    </form>
+
+    </body>
+    </html>
+
+   

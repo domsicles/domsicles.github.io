@@ -1,0 +1,236 @@
+header {
+    position: relative;
+    top: -32px;
+    background-color: black;
+    padding-top: 5px;
+    border-radius: 70px;
+}
+
+.logo {
+    position: relative;
+    border-radius: 100px;
+    height: 3cm;
+    width: 3cm;
+    left: 20px;
+    top: 7px;
+}
+
+nav {
+    position: relative;
+    text-align: right;
+    bottom: 65px;
+    right: 80px;
+}
+
+.stats {
+    position: relative;
+    right: 100px;
+    color: azure;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.stats:hover {
+    background-color: white;
+    color: black;
+}
+
+.reg {
+    position: relative;
+    right: 50px;
+    color: azure;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.reg:hover {
+    background-color: white;
+    color: black;
+}
+
+.app {
+    position: relative;
+    color: goldenrod;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.app:hover {
+    background-color: white;
+    color: goldenrod;
+}
+
+body {
+    background-position: center;
+    background-color: #728FCE;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 40px;
+    background-size: cover;
+}
+
+.quiz {
+    position: relative;
+    background-color: lavender;
+    width: 830px;
+    height: 1050px;
+    margin: auto;
+    padding: 50px;
+    border-radius: 50px;
+    top: -10px;
+}
+
+fieldset {
+    border-radius: 6px;
+}
+
+.student {
+    position: relative;
+    width: 100px;
+    background-color:lightblue;
+    border-radius: 6px;
+    border: 1px solid;
+    height: 20px;
+    text-indent: 10px;
+}
+
+#name {
+    position: relative;
+    width: 300px;
+    height: 25px;
+}
+
+#email {
+    position: relative;
+    width: 250px;
+    height: 25px;
+}
+
+#course {
+    position: relative;
+    width: 200px;
+    height: 25px;
+}
+
+#date {
+    position: relative;
+    width: 150px;
+    height: 25px;
+}
+
+.expro {
+    background-color:lightblue;
+    border-radius: 6px;
+    border: 1px solid;
+    height: 20px;
+    width: 100px;
+    text-indent: 10px;
+}
+
+#answer {
+    position: relative;
+    width: 250px;
+}
+
+.header {
+    position: relative;
+    width: 500px;
+}
+
+.file {
+    font-size: medium;
+    padding: 15px;
+}
+
+.num5 {
+    position: relative;
+    left: 20px;
+    top: 10px;
+    line-height: px;
+    width:730px;
+    height: 200px;
+    border-radius: 6px;
+    padding:0 22px;
+    font-size: 16px;
+}
+
+button {
+    background-color: green;
+    display: block;
+    margin: 35px;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid;
+    padding: 10px 40px;
+    color: white;
+    cursor:pointer;
+    transition: 0.25px;
+}
+
+button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+meter {
+    position:relative;
+    bottom: 70px;
+    right: 350px;
+   float: right;
+   height: 30px;
+   width: 300px;
+}
+
+meter::-webkit-meter-optimum-value {
+    background: #4169E1;
+}
+
+footer {
+    position: relative;
+    top: 10px;
+    background-color: grey;
+    padding: 12px;
+    margin-left: -25px;
+    width: 1342px;
+}
+
+.socmed {
+    position: relative;
+    bottom: 10px;
+    left: 35px;
+}
+
+.facebook {
+    position: relative;
+    width: 1cm;
+    height: 1cm;
+    border-radius: 25px;
+    top: 4px;
+    left: 40px;
+}
+
+.IG {
+    position: relative;
+    width: 1cm;
+    height: 1cm;
+    border-radius: 25px;
+    top: 4px;
+    left: 45px;
+}
+
+.phone {
+    position: relative;
+    width: 1cm;
+    height: 1cm;
+    border-radius: 25px;
+    top: 4px;
+    left: 50px;
+}
+
+.copyright {
+    position: relative;
+    bottom: 10px;
+    left: 9in;
+}

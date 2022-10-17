@@ -1,0 +1,141 @@
+header {
+    background-color: black;
+    padding-top: 5px;
+    border-radius: 70px;
+}
+
+.logo {
+    position: relative;
+    border-radius: 100px;
+    height: 3cm;
+    width: 3cm;
+    left: 20px;
+    top: 7px;
+}
+
+nav {
+    position: relative;
+    text-align: right;
+    bottom: 65px;
+    right: 80px;
+}
+
+.stats {
+    position: relative;
+    right: 100px;
+    color: azure;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.stats:hover {
+    background-color: white;
+    color: black;
+}
+
+.reg {
+    position: relative;
+    right: 50px;
+    color: azure;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.reg:hover {
+    background-color: white;
+    color: black;
+}
+
+.quiz {
+    color: azure;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.quiz:hover {
+    background-color: white;
+    color: black;
+}
+
+body {
+    position: relative;
+    height: 600px;
+    background-color: #728FCE;
+    background-size: cover;
+}
+
+.designer {
+    position: relative;
+    border-radius: 1.5cm;
+    height: 10cm;
+    width: 8.5cm;
+    left: 6cm;
+    top: 10px;
+}
+
+#info {
+    position: relative;
+    width: 5in;
+    height: 2.5in;
+    border: 10px solid navy;
+    border-radius: 20px;
+    background-color: lightblue;
+    padding: 10px;
+    left: 6in;
+    bottom: 3.5in;
+}
+
+p {
+    text-align: justify;
+}
+
+footer {
+    position: relative;
+    top: -227.5px;
+    background-color: grey;
+    padding: 12px;
+    width: 1342px;
+    margin-left: -8px;
+}
+
+.socmed {
+    position: relative;
+    bottom: 10px;
+    left: 35px;
+}
+
+.facebook {
+    position: relative;
+    width: 1cm;
+    height: 1cm;
+    border-radius: 25px;
+    top: 4px;
+    left: 40px;
+}
+
+.IG {
+    position: relative;
+    width: 1cm;
+    height: 1cm;
+    border-radius: 25px;
+    top: 4px;
+    left: 45px;
+}
+
+.phone {
+    position: relative;
+    width: 1cm;
+    height: 1cm;
+    border-radius: 25px;
+    top: 4px;
+    left: 50px;
+}
+
+.copyright {
+    position: relative;
+    bottom: 10px;
+    left: 9in;
+}

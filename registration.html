@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="registration.css">
+</head>
+<header>
+    <a href="index.html"><img class="logo" src="DF Logo.png" alt="Logo"></a>
+
+    <nav>
+        <a class="stats" href="stats.html">Stats</a>
+        <a class="reg" href="registration.html">Registration</a>
+        <a class="quiz" href="quiz_app.html">Quiz App</a>
+    </nav>
+</header>
+<body class="body">
+    <form class="fform" action="action_page.php" method="post">
+    <div class="form">
+        <h1>Student Registration Form</h1>
+        <p>Fill-up the form carefully for registration</p>
+    </div>
+
+    <div>
+        <div>
+            <h4 class="sname">Student Name:</h4>
+            <input class="firstname" type="text" name="First_Name">
+            <label class="fname" for="firstname">First Name</label>
+
+            <input class="middlename" type="text" name="Middle_Name">
+            <label class="mname" for="middlename">Middle Name</label>
+
+            <input class="lastname" type="text" name="Last_Name">
+            <label class="lname" for="lastname">Last Name</label>
+        </div>
+        <div class="bdate">
+            <h4 class="birth">Birthdate:</h4>
+            <input type="date" id="birthmonth" name="birthmonth" 
+            min="1980-01" value="1980-01">
+        </div>
+        <div class="gen">
+            <h4 class="g">Gender:</h4>
+            <select name="gender" id="gender">
+                <option value="gender">Male</option>
+                <option value="gender">Female</option>
+                <option value="gender">LGBTQIA+</option>
+            </select>
+        </div>
+        <div class="address">
+            <h4 class="add">Address:</h4>
+            <input class="ress" type="text">
+            <label class="stadd" for="address">Street Address</label>
+
+            <input class="line2" type="text">
+            <label class="stline2" for="address">Street Address Line 2</label>
+        <div class="two">
+            <input class="c" type="text">
+            <label class="city" for="city">City</label>
+
+            <input class="sp" type="text">
+            <label class="state" for="province">State/Province</label>
+        </div>
+        <div class="postal">
+            <input class="zip" type="text">
+            <label class="code" for="zip-code">Postal/Zip Code</label>
+        </div>
+        <div class="stud">
+            <h4 class="ent">Student E-mail:</h4>
+            <input class="email" type="text" placeholder="ex: myname@example.com">
+        </div>
+        <div class="mobnum">
+            <h4 class="mobile">Mobile Number:</h4>
+            <input class="number" type="text" placeholder="(000) 000-0000">
+        </div>
+        <div class="phonum">
+            <h4 class="phone">Phone Number:</h4>
+            <input class="num" type="text" placeholder="(000) 000-0000">
+        </div>
+        <div class="wornum">
+            <h4 class="work">Work Number:</h4>
+            <input class="ber" type="text" placeholder="(000) 000-0000">
+        </div>
+        <div class="cpany">
+            <h4 class="company">Company:</h4>
+            <input class="comp" type="text">
+        </div>
+        <div class="course">
+            <h4 class="courses">Courses:</h4>
+            <select name="courses" id="courses">
+                <option value="courses">BS-InfoTech</option>
+                <option value="courses">BS-InfoSys</option>
+                <option value="courses">BS-ComSci</option>
+            </select>
+        </div>
+        <div class="comments">
+            <h4 class="addcom">Additional Comments:</h4>
+            <textarea class="com" type="text" placeholder="Type here..."></textarea>
+        </div>
+        <div>
+            <button class="submit" type="submit"><strong>Submit Application</strong></button>
+            <button class="clear" type="submit"><strong>Clear Field</strong></button>
+        </div>
+        </div>
+        
+    </div>
+    </form>
+    <footer>
+        <small class="socmed">Follow me on Social Media!</small>
+    
+        <a href="https://web.facebook.com/dominicterrago.fajardo.9">
+        <img class="facebook" src="facebook-logo-transparent-background-13.png" alt="facebook" ></a>
+    
+        <a href="https://www.instagram.com/minic_fajardo/"><img class="IG" src="instagram.png" alt="instagram"></a>
+    
+        <a href="09510824136"><img class="phone" src="phone icon.png" alt="phone"></a>
+    
+        <small class="copyright">Copyright DTF @ 2022</small>
+    </footer>
+</body>
+</html>
